@@ -1,0 +1,90 @@
+<section id="contact">
+        <div class="container">
+            <div class="row contact-content">
+                <div class="head title_section">
+                    <div class="button-intro">
+                        <div class="button-intro_first">
+                            PING 
+                        </div>
+                        <div class="button-intro_second">
+                            PONG 
+                        </div>
+                    </div>
+                    <div class="main-intro-text about-text">
+                        <span class="square"></span>
+                        <div>CONTACT</div>
+                    </div>
+                    <div class="description">Get in touch with me via social media or send me an email</div>
+                    <div class="social_list">
+                        <a href="https://www.linkedin.com/in/duongtrinh02/" target="_blank">
+                            <div class="social">
+                                <img class="social-icon" src="{{ site.baseurl }}/img/contact/LinkedIn_Logomark.png" alt="LinkedIn_Logomark" />
+                                <span>LinkedIn</span>
+                            </div>
+                        </a>
+                        <a href="https://dribbble.com/DuongTrinh02" target="_blank">
+                            <div class="social">
+                                <img class="social-icon" src="{{ site.baseurl }}/img/contact/Dribbble_Logomark.png" alt="Dribbble_Logomark" />
+                                <span>Dribbble</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/DuongTrinh02" target="_blank">
+                            <div class="social">
+                                <img class="social-icon" src="{{ site.baseurl }}/img/contact/GitHub_Logomark.png" alt="GitHub_Logomark" />
+                                <span>GitHub</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/duongtrinh002/" target="_blank">
+                            <div class="social">
+                                <img class="social-icon" src="{{ site.baseurl }}/img/contact/Instagram_Logomark.png" alt="Instagram_Logomark" />
+                                <span>Instagram</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-image image_myself">
+                    <div class="image-shadow"></div>
+                    <img class="avatar" src="{{ site.baseurl }}/img/contact/Avatar.png" alt="Avatar" />
+                </div>
+            </div>
+            <div class="row form-contact">
+                <div class="col-lg-12" style="padding: 0;">
+                <div class="title-form-cotact">Send me an email</div>
+                    <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/f/moveqodg" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <div class="label">Name</div>
+                                    <!-- <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."> -->
+                                    <input type="text" class="form-control" id="name" name="name">
+                                    <!-- <p class="help-block text-danger"></p> -->
+                                </div>
+                                <div class="control-group form-group">
+                                    <div class="label">Email</div>
+                                    <input type="email" class="form-control"  id="email" name="email" >
+                                    <!-- <p class="help-block text-danger"></p> -->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group form-group">
+                                    <div class="label">Message</div>
+                                    <textarea class="form-control"  id="message" name="message"></textarea>
+                                    <!-- <p class="help-block text-danger"></p> -->
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-right">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <div class="col-md-4">
+                    <span class="copyright">© {{ 'now' | date: "%Y" }} Duong Thi Trinh</span>
+                </div>
+            </div>
+        </div>
+    </section>

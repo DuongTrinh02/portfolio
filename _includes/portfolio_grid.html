@@ -1,0 +1,69 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="">
+        <div class="container">
+            <div class="row head title_section">
+                <div class="button-intro">
+                    <div class="button-intro_first">
+                        UI 
+                    </div>
+                    <div class="button-intro_second">
+                        UX 
+                    </div>
+                </div>
+                <div class="main-intro-text about-text">
+                    <span class="square"></span>
+                    <div>PORTFOLIO</div>
+                </div>
+                <div class="description">Design projects are not just work, they are a way for me to express my creativity and passion. <br/>
+                    I have collaborated with startups and large corporations, leading impactful design projects used by millions of people.</div>
+            </div>
+            <div class="projects">
+                {% assign first_three_posts = site.posts | slice: 0,3 %}
+                {% assign remaining_posts = site.posts | slice: 3, site.posts.size %}
+                
+                <!-- Duyệt 3 phần tử đầu tiên -->
+                <div class="project">
+                    {% for post in first_three_posts %}
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="index">0{{ forloop.index }}</div>
+                            <div class="caption">
+                                <h4>{{ post.title }}</h4>
+                                <p class="text-muted">{{ post.subtitle }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+                
+                <div class="project">
+                <!-- Duyệt phần còn lại -->
+                {% for post in remaining_posts %}
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="index">0{{ forloop.index | plus: 3 }}</div>
+                            <div class="caption">
+                                <h4>{{ post.title }}</h4>
+                                <p class="text-muted">{{ post.subtitle }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
