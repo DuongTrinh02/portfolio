@@ -4,8 +4,8 @@ subtitle: Pet app
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: Water.png
+img: Content/Popup_1.png
+thumbnail: Thumbnail/Thumbnail_1.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

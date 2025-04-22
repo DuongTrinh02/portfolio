@@ -4,8 +4,8 @@ subtitle: Eco Simulation Game
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: Popup_5.png
-thumbnail: Water.png
+img: Content/Popup_5.png
+thumbnail: Thumbnail/Thumbnail_5.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

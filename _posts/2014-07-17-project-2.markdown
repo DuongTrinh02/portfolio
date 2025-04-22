@@ -4,8 +4,8 @@ subtitle: Entertainment & Simulation App
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: Water.png
+img: Content/Popup_2.png
+thumbnail: Thumbnail/Thumbnail_2.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

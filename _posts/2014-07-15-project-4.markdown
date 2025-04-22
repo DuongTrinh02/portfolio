@@ -4,8 +4,8 @@ subtitle: Blockchain Traceability App
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: Water.png
+img: Content/Popup_4.png
+thumbnail: Thumbnail/Thumbnail_4.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

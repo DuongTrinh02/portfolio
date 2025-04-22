@@ -4,8 +4,8 @@ subtitle: Wellness App
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: Water.png
+img: Content/Popup_3.png
+thumbnail: Thumbnail/Thumbnail_3.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
