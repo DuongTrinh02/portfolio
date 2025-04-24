@@ -1,6 +1,6 @@
 ---
-title: Call Santa Claus
-subtitle: Entertainment & Simulation App
+title: TV Remote
+subtitle: Utility App
 layout: default
 modal-id: 2
 date: 2014-07-17
